@@ -1,0 +1,27 @@
+footer {
+  flex: 0 0 8em;
+  background-color: var(--darkest-trans);
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 1em 0 1em;
+  font-size: 80%;
+  line-height: 1.5em;
+  flex-flow: row-reverse nowrap;
+}
+
+#credit {
+  text-align: right;
+}
+
+#links, #credit {
+  overflow: hidden;
+  flex: 0 1 auto;
+}
+
+#links *, #credit * {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}

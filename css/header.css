@@ -1,0 +1,23 @@
+header {
+  text-align: left;
+  background-color: var(--darkest-trans);
+  flex: 0 0 4em;
+  line-height: 4em;
+}
+
+header * {
+  display: inline-block;
+}
+
+#home-icon {
+  width: 2em;
+  height: 2em;
+  margin-right: 1em;
+  position: relative;
+  top: 3px;
+}
+
+#home-icon>img {
+  display: block;
+  height: 100%;
+}

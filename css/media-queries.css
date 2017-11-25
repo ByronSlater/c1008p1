@@ -1,0 +1,20 @@
+
+/* If the screen is big enough to allow a navbar at the side, we'll move it there */
+@media screen and (min-width: 500px) {
+  .wrapper {
+    flex-flow: row nowrap;
+    border: solid var(--darker-trans) 1em;
+    border-left: 0;
+  }
+
+  nav {
+    flex-flow: column nowrap;
+    flex: 1 0 100px;
+  }
+
+  nav div {
+    padding: 1em 0;
+    flex: 0 0 1em;
+    line-height: 1em;
+  }
+}
